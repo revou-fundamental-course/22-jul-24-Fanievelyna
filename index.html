@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <header>
+            <div class="logo-icon"></div>
+        </header>
+
+        <section class="nav-container">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our package</a>
+            <a class="nav-item">Contact us</a>
+        </section>
+    </nav>
+
+    <main>
+        <article class="main-title">
+            <header>
+                <h1>Your Trusted Travel Agent's</h1>
+            </header>
+            <p>Your happiness is our happiness.</p>
+        </article>
+
+        <section class="main-content">
+            <article class="main-content-item">
+                <div class="main-content-banner" id="banner"></div>
+                <div class="main-item">
+                    <div class="item-icon"></div>
+
+                    <div>
+                        <h3>Lorem Ipsum Dolor</h3>
+                        <p>Lorem Ipsum Dolor</p>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <h3>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</h3>
+                    <ol class="more-info">
+                        <li>Your first feature, written in the form of a benefit statement.</li>
+                        <li>Your second feature, written in the form of a benefit statement.</li>
+                        <li>Your third feature, written in the form of a benefit statement.</li>
+                    </ol>
+                </div>
+            </article>
+
+            <div class="form-body">
+                <div class="container">
+                    <div class="contact-form">
+                        <h2>Contact Us</h2>
+                        <p>Sales will contact you 24h after we have received the data.</p> 
+                        <form class="main-content-item" id="contactForm">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" placeholder="First and last name" autocomplete="name" required>
+                            <span id="nameError" class="error"></span>
+
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" autocomplete="email" required>
+                            <span id="emailError" class="error"></span>
+
+                            <label for="interest">What are you interested in?</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select option</option>
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                            </select>
+                            <span id="interestError" class="error"></span>
+
+                            <button type="button" id="submitButton">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <br>
+    <div class="div-body">
+        <h2>Our package</h2>
+    </div>
+
+    <br>
+    <br><hr>
+    <div class="closing-headline">
+        <h2>Your Closing Argument Headline</h2>
+        <p>If you are interested please press the button that says call to action.</p>
+        <button type="submit">CALL TO ACTION</button>
+    </div>
+    <br><hr><br>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
