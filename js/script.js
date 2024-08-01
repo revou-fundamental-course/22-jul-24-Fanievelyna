@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
     banner.style.backgroundImage = `url(${images[currentImageIndex]})`;
 });
 
-
-
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('submitButton').addEventListener('click', function(event) {
         validateForm(event);
@@ -76,10 +74,10 @@ function validateForm(event) {
         isValid = false;
     }
 
-    // If the form is valid, submit it
+    // If the form is valid, handle form submission without refreshing the page
     if (isValid) {
-        console.log('Form is valid. Submitting...');
-        document.getElementById('contactForm').submit();
+        console.log('Form is valid. Handling form submission...');
+        // Implement your form submission logic here, e.g., AJAX request
     } else {
         console.log('Form is not valid. Correct errors and try again.');
     }
